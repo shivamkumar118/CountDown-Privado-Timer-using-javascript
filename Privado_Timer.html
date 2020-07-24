@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Privado Timer</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<h1 class="title">Privado Timer</h1>
+	</header>
+	<div class="content">
+		<div class="counter">00:00</div>
+		<div class="buttons">
+			<button class="start" id="start" value="1" onclick="check(this)">Start</button>
+			<button class="continue" style="display: none" id="continue" value="1" onclick="check(this)">Continue</button>
+			<button class="stop" style="display: none"  id="stop" value="0" onclick="check(this)">Pause</button>
+		</div>
+		<script type="text/javascript" src="helper.js"></script>
+</body>
+
+</html>
